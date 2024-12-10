@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 207, 207);
+}
+body #container nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2px solid black;
+    background-color: grey;
+    height: 50px;
+}   
+
+body #container nav .button{
+    border: none;
+    background-color: grey;
+    font-size: 20px;
+}
+
+body #container nav .profiles {
+    display: none;
+}
+
+body #container nav .profiles .details {
+position: absolute;
+margin-top: 41px;
+background-color: grey;
+padding: 10px;
+text-align: center;
+border-radius: 10px;
+}
+
+body #container nav .profiles .details .picture{
+    border-radius: 50px;
+    width: 90px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+body #container nav .profiles .details .social-media {
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+body #container nav .buttuns {
+    width: 200px;
+    display: flex;
+    gap: 20px;
+}
+body #container nav .buttuns button {
+    padding: 5px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100px;
+}
+
+body #container nav .buttuns button:hover{
+box-shadow: 0 0 5px purple,
+0 0 25px blueviolet,
+0 0 50px purple,
+0 0 100px blueviolet;
+}
+
+body #container nav .buttuns a {
+text-decoration: none;
+color:black;
+
+}
+
+body #container main .project {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+body #container main .project ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+body #container main .project ul li {
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+body #container main .project ul a {
+    text-decoration: none;
+    background-color: white;
+    border-style: groove;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+body #container main .project ul a:hover{
+    background-color: purple;
+    color: whitesmoke;
+}
+
+body #container main .project ul li img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+@media (max-width:949px){
+
+    body #container main .project {
+        flex-direction: column;
+        gap: 20px;
+    }
+    body #container main .project ul {
+        padding: 10px;
+    }
+}

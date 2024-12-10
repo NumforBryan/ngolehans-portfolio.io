@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 207, 207);
+}
+body #container nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2px solid black;
+    background-color: grey;
+    height: 50px;
+}   
+
+body #container nav .button{
+    border: none;
+    background-color: grey;
+    font-size: 20px;
+}
+
+body #container nav .profiles {
+    display: none;
+}
+
+body #container nav .profiles .details {
+position: absolute;
+margin-top: 41px;
+background-color: grey;
+padding: 10px;
+text-align: center;
+border-radius: 10px;
+}
+
+body #container nav .profiles .details .picture{
+    border-radius: 50px;
+    width: 90px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+#container nav .profiles .details .social-media {
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+#container nav .buttuns {
+    width: 200px;
+    display: flex;
+    gap: 20px;
+}
+#container nav .buttuns button {
+    padding: 5px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100px;
+    
+    fl
+    
+}
+
+#container nav .buttuns button:hover{
+
+box-shadow: 0 0 5px purple,
+0 0 25px blueviolet,
+0 0 50px purple,
+0 0 100px blueviolet;
+}
+#container nav .buttuns a {
+text-decoration: none;
+color:black;
+}
+
+body  #container main .text {
+    padding:50px 100px;
+}
+
+body  #container main .text p {
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+
+
+main .main-carousel {
+    display: flex;
+    justify-content: right;
+    padding: 0px 2%;
+}
+
+main .main-carousel .carousel {
+    /* max-width: 80%; */
+    position: relative;
+    max-height: 720px;
+    overflow: hidden;
+    border-style: groove;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main .main-carousel .carousel .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+main .main-carousel .carousel .carousel-images .carousel-item {
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+main .main-carousel .carousel .carousel-images .carousel-item img {
+    width: 100%;
+    max-height: 720px;
+    display: block;
+    position: relative;
+}
+
+main .main-carousel .carousel .carousel-images .carousel-item .caption {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+main .main-carousel .carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+main .main-carousel .carousel button.prev {
+    left: 20px;
+}
+
+main .main-carousel .carousel button.next {
+    right: 20px;
+}
+
+main .main-carousel .carousel button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+main .main-carousel .carousel .indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+main .main-carousel .carousel .indicators .indicator {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+main .main-carousel .carousel .indicators .indicator.active {
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+body  #container main .eschosy {
+    text-align: center;
+}
+
+body  #container main .eschosy .logo {
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+    margin: 15px;
+}
+
+body  #container main .eschosy p {
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 10px 50px;
+}
+
+@media (max-width:949px) {
+    body  #container main .text {
+        padding:20px;
+    }
+    
+    body  #container main .text p {
+        word-spacing: 0px;
+        line-height: 25px;
+        font-size: 18px;
+    }
+}
