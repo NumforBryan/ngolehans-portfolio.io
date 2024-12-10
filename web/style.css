@@ -1,0 +1,143 @@
+button {
+    background-color: rgb(29, 168, 29);
+    color: white;
+    border: none;
+    /* padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px; */
+    padding: 8px 60px;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background: rgb(6, 151, 25);
+    padding: 9px 61px;-block: 100px;
+    
+}
+.but {
+    text-align: center;
+}
+.page {
+    background-color: rgba(237, 241, 241, 0.979);
+    height: 1000px;
+    
+    
+    
+    
+    
+}
+.page1.5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;25
+}
+
+.page1 {
+        width: 470px;
+        height: 689px;
+        background-color: rgb(253, 253, 253);
+        border-radius: 10px;
+        
+}
+
+.head {
+    text-align: center;
+    border-bottom-style: ridge;
+    padding-top: 1px;
+    
+}
+
+.day {
+    padding-left: 10px;
+    padding-bottom: 35px;
+}
+
+.day2 {
+    float: left;
+    margin: 5px;
+    width: 132px;
+    margin: 5px;
+    border-style: ridge;
+    height:20px; 
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 3px;
+    
+}
+
+.day3 {
+    width: 130px;
+    border: none;
+    height: 23px;
+    font-size: 15px;
+    
+}
+
+
+.facebook {
+    font-size: 50px;
+    color: rgb(44, 116, 209);
+    padding-left: 120px;
+    user-select: none;
+}
+
+.name {
+    text-align: center;
+    padding-top: 10;
+    padding-right: 15px;
+    height: 50px;
+
+    
+}
+
+.txt {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.name2 {
+    width: 210px;
+    height:40px;
+    border-radius: 5px;
+    margin:5px;
+}
+
+.email {
+    padding-left: 15px;
+}
+
+.gender {
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
+.day1 {
+    float: left;
+    width: 132px;
+    margin: 5px;
+    border-style: ridge;
+    height:20px; 
+    padding-top: 5px;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    
+}
+
+.text1 {
+    padding-left: 15px;
+    margin-bottom: 1px ;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: 1px;
+}
+
+tr,th,td {
+    border: 1px solid black;
+}
